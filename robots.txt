@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /admin_new/
+Disallow: /img/
+Disallow: /flash/
+Disallow: /3g2/
+Disallow: /96k/
+Disallow: /dcf/
+Disallow: /dm/
+Disallow: /smc/
+Disallow: /full/
+Disallow: /imotion/
+Disallow: /mp4/
+Disallow: /secret/
+Disallow: /ticket/

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.disco-item {
+  overflow: hidden;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 4px double #0d47a1;
+}
+.disco-item__jackets {
+  float: left;
+  width: 360px;
+  margin-right: 40px;
+}
+.disco-item__jackets img {
+  max-width: 100%;
+  height: auto;
+}
+.disco-item__data {
+  float: right;
+  width: 540px;
+}
+.disco-item__data .youtube,
+.disco-item__data .player {
+  overflow: hidden;
+  display: inline-block;
+  width: 64px;
+  height: 18px;
+  text-indent: -500px;
+  vertical-align: text-top;
+}
+.disco-item__data .youtube:hover,
+.disco-item__data .player:hover {
+  opacity: .7;
+}
+.disco-item__data .player {
+  background: url("../images/disco/btn_shichou.png") no-repeat center center;
+  -moz-background-size: 64px;
+  -o-background-size: 64px;
+  -webkit-background-size: 64px;
+  background-size: 64px;
+}
+.disco-item__data .img-player {
+  background-image: url("../images/disco/btn_shichou.png") !important;
+}
+.disco-item__data .img-playall {
+  background-image: url("../images/disco/btn_playall.png") !important;
+}
+.disco-item__data .youtube {
+  background: url("../images/disco/btn_play.png") no-repeat center center;
+  -moz-background-size: 64px;
+  -o-background-size: 64px;
+  -webkit-background-size: 64px;
+  background-size: 64px;
+}
+.disco-item__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0d47a1;
+}
+
+.disco-category {
+  font-family: 'Oswald', 'Times New Roman', '游明朝', YuMincho, 'Meiryo', 'メイリオ', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'cursive', 'serif';
+  display: inline-block;
+  padding: 1px 10px;
+  margin-bottom: 5px;
+  color: #0d47a1;
+  line-height: 1.25em;
+  letter-spacing: .1em;
+  background-color: #c3ecff;
+}
+
+object#myExperience {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.btn-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.digital-btn, .tokuten-btn {
+    display: inline-block;
+    margin-right: 2%;
+    padding: 0 5px;
+    background-color: #0d47a1;
+    color: #fff;
+    border-radius: 4px;
+    width: 20%;
+    min-width: 100px;
+    max-width: 100px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .disco-item {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  .disco-item__jackets {
+    margin-bottom: 10px;
+  }
+  .disco-item__data {
+    float: none;
+    width: 100%;
+  }
+  .disco-item__jackets, .disco-item__data {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+  }
+  .disco-item__jacket {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .disco-item__jacket img {
+    max-width: 440px;
+    width: 80%;
+  }
+
+  .category-list--disco li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .category-list--disco li a {
+    display: block;
+    max-width: 100%;
+  }
+}
