@@ -32,7 +32,7 @@ html, body{
 
 /***トップ＆ナビ****/
 
-.mainImg{background: url(../images/topBg.png) repeat-x; height: 600px; width: 100%; background-size: auto 100%; overflow-x:hidden ;}
+.mainImg{background: url(https://www.inoriminase.com/special/2017/RSG/images/topBg.png) repeat-x; height: 600px; width: 100%; background-size: auto 100%; overflow-x:hidden ;}
 .mainImg .inner{margin: 0 auto; width: 1380px;}
 .mainImg .inner h1{margin: 0;}
 .mainImg nav{width: 100%; bottom: 0; background: rgba(255,255,255,0.9); text-align: center;}
@@ -85,7 +85,7 @@ html, body{
 
 /***メインコンテンツ*****/
 
-.contents{width: 100%; background: url(../images/bg.png) repeat-y center top;}
+.contents{width: 100%; background: url(https://www.inoriminase.com/special/2017/RSG/images/bg.png) repeat-y center top;}
 .contents .inner{width: 1000px; margin: 0 auto;}
 
 section.rel{
@@ -231,9 +231,9 @@ border-top: 1px solid #d9d9d9;
 .bottomText{padding: 90px 0 50px;}
 .bottomText .caption{margin: 0px; text-align: center;}
 
-#pagetop{background: url(../images/btn_top.png) no-repeat; width: 72px; height: 72px; background-size: 100% auto !important; position: fixed; display: none;
+#pagetop{background: url(https://www.inoriminase.com/special/2017/RSG/images/btn_top.png) no-repeat; width: 72px; height: 72px; background-size: 100% auto !important; position: fixed; display: none;
 bottom: 25px; right: 25px;}
-#pagetop:hover{background: url(../images/btn_top_over.png) no-repeat;}
+#pagetop:hover{background: url(https://www.inoriminase.com/special/2017/RSG/images/btn_top_over.png) no-repeat;}
 
 footer{background: #00adc3;}
 footer .inner{width: 1000px; margin: 0 auto; height: 60px;}
@@ -282,16 +282,16 @@ footer p{font-size: 17px; color: #ffffff; text-align: center; max-width: 430px; 
 	.mainImg .inner{width:100%;}
 	
 	.mainImg nav{position: fixed; top: 0; left: 0; z-index: 9; width: 100%; height: auto; bottom: inherit; display: none;}
-	.mainImg nav ul{background: url(../images/sp/logo.png) no-repeat top center; padding-top: 110px; background-size: 320px auto;}
+	.mainImg nav ul{background: url(https://www.inoriminase.com/special/2017/RSG/images/sp/logo.png) no-repeat top center; padding-top: 110px; background-size: 320px auto;}
 	.mainImg nav ul li{width: 100%; display: block;}
 	.mainImg nav ul li a{width: 100%; box-sizing: border-box; padding: 10px;}
 	.mainImg nav ul li a img{width: auto; height: 20px;}
 	
-	#menu_btn{background: url(../images/sp/btn_open.png) no-repeat; width: 50px; height: 50px; position: fixed; background-size: 100% auto !important; cursor: pointer;
+	#menu_btn{background: url(https://www.inoriminase.com/special/2017/RSG/images/sp/btn_open.png) no-repeat; width: 50px; height: 50px; position: fixed; background-size: 100% auto !important; cursor: pointer;
 	top: 0; right:0; z-index: 10;}
-	#menu_btn.open{background: url(../images/sp/btn_close.png) no-repeat;}
+	#menu_btn.open{background: url(https://www.inoriminase.com/special/2017/RSG/images/sp/btn_close.png) no-repeat;}
 	
-	.contents{background: url(../images/sp/bg.png) repeat-y; background-size: 100% auto;}
+	.contents{background: url(https://www.inoriminase.com/special/2017/RSG/images/sp/bg.png) repeat-y; background-size: 100% auto;}
 	.contents .inner{width: 100%; box-sizing: border-box; padding-left: 15px; padding-right: 15px;}
 	section.rel{margin-top: 20%; width: 100%; padding: 45px 15px;}
 	section.rel h2{top: -25px;}
