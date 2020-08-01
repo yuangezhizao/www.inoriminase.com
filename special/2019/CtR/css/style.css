@@ -473,13 +473,13 @@ content: '';
 .sizeTitle{font-size: 18px; text-align: left; color: #ffffff; height: 48px; line-height: 48px; padding-left: 70px; background: #0097ac; font-weight: bold;}
 #goods .creditTitle:before{
 	content: '';
-	display: block; background: url("https://www.inoriminase.com/special/2019/CtR/images/icon_credit.png") no-repeat;
+	display: block; background: url("../images/icon_credit.png") no-repeat;
 	width: 44px; height: 32px; top: 0; bottom: 0; margin: auto 0;
 	left: 10px; position: absolute;
 }
 .sizeTitle:before{
 	content: '';
-	display: block; background: url("https://www.inoriminase.com/special/2019/CtR/images/icon_shirt.png") no-repeat;
+	display: block; background: url("../images/icon_shirt.png") no-repeat;
 	width: 44px; height: 32px; top: 0; bottom: 0; margin: auto 0;
 	left: 10px; position: absolute;
 }
