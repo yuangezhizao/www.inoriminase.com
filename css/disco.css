@@ -32,20 +32,20 @@
   opacity: .7;
 }
 .disco-item__data .player {
-  background: url("/images/disco/btn_shichou.png") no-repeat center center;
+  background: url("../images/disco/btn_shichou.png") no-repeat center center;
   -moz-background-size: 64px;
   -o-background-size: 64px;
   -webkit-background-size: 64px;
   background-size: 64px;
 }
 .disco-item__data .img-player {
-  background-image: url("/images/disco/btn_shichou.png") !important;
+  background-image: url("../images/disco/btn_shichou.png") !important;
 }
 .disco-item__data .img-playall {
-  background-image: url("/images/disco/btn_playall.png") !important;
+  background-image: url("../images/disco/btn_playall.png") !important;
 }
 .disco-item__data .youtube {
-  background: url("/images/disco/btn_play.png") no-repeat center center;
+  background: url("../images/disco/btn_play.png") no-repeat center center;
   -moz-background-size: 64px;
   -o-background-size: 64px;
   -webkit-background-size: 64px;
